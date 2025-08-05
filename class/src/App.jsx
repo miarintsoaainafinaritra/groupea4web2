@@ -275,7 +275,7 @@ function App() {
       <footer className={`app-footer ${isDarkMode ? 'dark-footer' : 'light-footer'}`}>
         <div className="footer-content">
           <p>Pokemon Explorer © {new Date().getFullYear()}</p>
-          <p>Data provided by <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">PokeAPI</a></p>
+          
           <div className="footer-links">
             <a href="/about">About</a>
             <a href="/privacy">Privacy Policy</a>
